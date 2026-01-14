@@ -54,6 +54,7 @@ RUN conda install -y -c bioconda seqkit=${VERSION_SEQKIT} \
 # pinning the last antpack version that does not require a licence key
 RUN pip3 install logomaker \
                  antpack==0.3.8.5
+
 # install IgBLAST
 ARG PATH_IGBLAST="/igblast"
 ENV IGDATA=${PATH_IGBLAST}/ncbi-igblast-${VERSION_IGBLAST}
