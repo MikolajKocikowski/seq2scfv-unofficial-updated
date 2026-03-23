@@ -8,7 +8,7 @@ While this setup generally reproduces the functionality of the original pipeline
 
 This repository is not affiliated with the original authors or seq2scFv. A related issue and pull request were submitted upstream, but given that the official repo is tied to a published paper, updates there may not be feasible. This repository will maintain any further fixes or improvements. Please be mindful that the original software is provided under a non-commercial license; this repository does not change those terms.
 
-# To Do
+# Development To Do
 
 1. In the code leading to the final output file, consider renaming the 'total_nt_qual' column to 'total_count', 'total_nt_qual_count', or similar. While the name derives from an eariler 'nt_qual' label and is specific regarding the quantified data, it does not reflect the "count" role o this column, and can be misleading.
 
